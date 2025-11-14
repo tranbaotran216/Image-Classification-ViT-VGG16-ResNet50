@@ -16,17 +16,10 @@ After training, a **Streamlit** app is provided to:
 
 ---
 
-## 1. Environment Setup
+## Environment Setup
 
-You will need two nhóm thư viện:
+pip install -r requirements.txt
 
-- **Training dependencies** – để train ViT/VGG16/ResNet50 (thường chạy trong notebook, ví dụ Kaggle).
-- **App dependencies** – để chạy Streamlit UI cho inference.
+- **Training dependencies** – để train ViT/VGG16/ResNet50 (run on Kaggle).
+- **App dependencies** –  Streamlit UI for inference.
 
-### 1.1. Training dependencies
-
-Các lệnh kiểu notebook (Kaggle / Jupyter):
-
-```bash
-!pip install -q transformers datasets kaggle
-!pip install -q accelerate
